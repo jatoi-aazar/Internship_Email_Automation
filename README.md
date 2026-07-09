@@ -84,7 +84,7 @@ Mark Applicant as Processed
 Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Internship_Email_Automation.git
+git clone https://github.com/jatoi-aazar/Internship_Email_Automation.git
 ```
 
 Move into the project

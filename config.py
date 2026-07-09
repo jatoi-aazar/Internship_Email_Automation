@@ -1,15 +1,9 @@
-
-
-SENDER_EMAIL = "your_email@gmail.com"
-PASSWORD = "your_gmail_app_password"
-
+SPREADSHEET = "Aazar's Automation Project (Responses)"
+WORKSHEET_INDEX = 0
+CREDENTIALS_PATH = "/home/aazar/Desktop/credentials.json"
+TEMPLATE_PATH = "/home/aazar/Desktop/Scripts/Internship_Email_Automation/templates/Aura_Farming_Internship_Offer_Letter.docx"
+SENDER_EMAIL = "aazar.hr.aurafarming@gmail.com"
+PASSWORD = "tslafzfmtnssuyrr"
 SMTP_SERVER = "smtp.gmail.com"
 PORT = 587
-
-SPREADSHEET = "Your Spreadsheet Name"
-WORKSHEET_INDEX = 0
 PROCESSED_COLUMN = "Processed"
-
-CREDENTIALS_PATH = "/path/to/credentials.json"
-
-TEMPLATE_PATH = "templates/Aura_Farming_Internship_Offer_Letter.docx"
