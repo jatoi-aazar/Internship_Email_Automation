@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual Environment
+.venv/
+.python-version
+
+# Google Credentials
+credentials.json
+
+# Logs
+cron.log
+logs/*
+!logs/.gitkeep
+
+# Generated Files
+generated_pdfs/*
+!generated_pdfs/.gitkeep
+
+# VS Code
+.vscode/
