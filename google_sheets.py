@@ -20,31 +20,6 @@ def get_worksheet(client: gspread.Client , spreadsheet_name: str , worksheet_ind
 
 worksheet = get_worksheet(client , SPREADSHEET , WORKSHEET_INDEX)
 
-def get_latest_applicant_record(worksheet: gspread.Worksheet) -> Dict | None:
-
-    records = worksheet.get_all_records()
-    
-    if not records:
-        return None
-
-    latest_applicant = records[-1]
-
-    worksheet_row = len(records) + 1
-
-    latest_applicant["row_number"] = worksheet_row
-    
-    new_dict = {
-        "row_number" : latest_applicant["row_number"],
-        "timestamp" : latest_applicant["Timestamp"],
-        "name": latest_applicant["Enter Your Name"],
-        "email": latest_applicant["\nEnter Your Email"],
-        "department": latest_applicant["Choose Your Department"],
-        "experience": latest_applicant["Any Internship Experience?"],
-        "processed": latest_applicant["Processed"]
-    }
-
-    
-    return new_dict
 
 def get_unprocessed_applicants(worksheet: gspread.Worksheet):
 

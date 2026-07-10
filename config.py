@@ -1,9 +1,9 @@
-SPREADSHEET = "Aazar's Automation Project (Responses)"
-WORKSHEET_INDEX = 0
-CREDENTIALS_PATH = "/home/aazar/Desktop/credentials.json"
-TEMPLATE_PATH = "/home/aazar/Desktop/Scripts/Internship_Email_Automation/templates/Aura_Farming_Internship_Offer_Letter.docx"
-SENDER_EMAIL = "aazar.hr.aurafarming@gmail.com"
-PASSWORD = "tslafzfmtnssuyrr"
+SPREADSHEET = "YOUR SPREADSHEET NAME"
+WORKSHEET_INDEX = "YOUR WORKSHEET INDEX"
+CREDENTIALS_PATH = "YOUR CREDENTIALS PATH"
+TEMPLATE_PATH = "YOUR PATH TO TEMPLATE"
+SENDER_EMAIL = "YOUR_EMAIL"
+PASSWORD = "YOUR_PASSWORD"
 SMTP_SERVER = "smtp.gmail.com"
 PORT = 587
 PROCESSED_COLUMN = "Processed"
